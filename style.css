@@ -1,0 +1,352 @@
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: top 0.3s ease;
+   
+
+}
+nav{
+    height: 90px;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    border-bottom: 2px solid #c7b0b0;
+    background-color: black; 
+
+}
+.nav-part2{
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+    margin-left: 10px;
+}
+.nav-part2 a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+.nav-part2 a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 2vw;
+}
+
+.nav-part2 button{
+    background-color:#f35b15;
+    font-size: 1vw;
+    padding: 1vw 1.5vw;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    
+    
+}
+.nav-part2 button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+/*   section no : 1   */
+
+.content{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    transition: 5s;
+}
+.left{
+    height: 30vw;
+    width: 50%;
+    margin-top: 50px;
+    padding: 7vw 8vw;
+}
+.right{
+    height: 30vw;
+    width: 50%;
+    
+    padding: 7vw 8vw;
+    
+}
+.left h1{
+    font-size: 3vw;
+    margin-top: 100px;
+}
+.right img{
+    height: 50vw;
+    width: 100%;
+    
+}
+span{
+    color:#f35b15;
+}
+.left p{
+      font-size: 4vh;
+}
+.left button{
+    background-color:#f35b15;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 30px;
+    border-top-left-radius: 0px;  
+    margin-top: 50px; 
+    transition-duration: 0.2s;
+    
+    
+}
+.left button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.left button a{
+    text-decoration: none; color: rgb(0, 0, 0);
+}
+.ourcourse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+
+}
+.ourcourse span1{
+    color:#f35b15 ;
+}
+hr{
+    width: 200px;
+}
+/* card css */
+.cards{
+    width: 20%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 150px;
+
+    
+}
+.card-img2{
+    margin-bottom: 70px;
+    border-radius: 50%;
+}
+.img1 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.des{
+    text-align: center;
+}
+.btn2{
+    background-color:#f35b15;
+    color: white;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 30px;
+    border-top-left-radius: 0px; 
+    border-bottom-right-radius:0px ; 
+    margin-top: 50px; 
+    transition-duration: 0.5s;
+    
+    
+}
+.btn2:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.des1{
+    margin-top: 120px;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+/* main About*/
+/* About section */
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.founder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.founder-img img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* To make the image circular */
+    margin-right: 20px;
+}
+.founder-details {
+    text-align: left;
+    margin-left: 80px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .founder {
+        flex-direction: column;
+    }
+
+    .founder-img img {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contact-img img{
+    width: 50vw; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* To make the image circular */
+    margin-right: 200px;
+}
+.contact-detail{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* chat gpt code */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .right {
+        margin-top: 0;
+    }
+}
+.sirzafar{
+    background-color:#f35b15;
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px; 
+    transition-duration: 0.2s;
+    margin-left: 150px;
+}
+.sirzafar:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+/* footer css */
+footer{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(32, 29, 29);
+}
+
+
+
+.contact {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa; /* Background color */
+}
+
+.contact h1 {
+    color: #343a40; /* Heading color */
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #454c53; /* Label color */
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a8a3a3; /* Input border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact form textarea {
+    resize: vertical;
+}
+
+.contact form input[type="submit"] {
+    background-color: #f35b15; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #ffffff; /* Button background color on hover */
+    border: solid black;
+    color: black;
+
+}
